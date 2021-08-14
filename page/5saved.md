@@ -41,11 +41,11 @@ type: page
 * [There Will Always Be More Work](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fthawkin3%2Fthere-will-always-be-more-work-22pf%3Ffbclid%3DIwAR2aAocE_gRznqsZiu8fiixwSbdPfBAXHwH6E4m3qZU7vFgJDHrZqacjxa0&h=AT0zc91RDwMK6zcsfkdEqEW4IEAE75JMHWz49qG2WeTlN6vaSFJU0t_nmqLHeTDbkPl8qXg6XydhlBMPWRVN9sok-dvjGFslCT3WXyvy-uF0VulWGI63faeNfT6Aa2R6jY3N)
 * [image
 Why Writing is Important for Software Developers](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fhowtocode_io%2Fwhy-writing-is-important-for-software-developers-365l%3Ffbclid%3DIwAR0dtJZ0UtdzvirOfhU3_SHrgYJFs9UZ7euAFSFXcJNjjzOS8ZZPfFnOp9Y&h=AT2fkcN7AH5gxb1Ak19qyM6bhSoZ9XfTEsU46Juv4XwrIJY-1x2sh2lS8vlhdfBMfkth6hkb7DKWRtKlnoJ20m0FIQeIaZ5CK7GSkmw0zQiFG4-3SyvlpGlCfP7Ta1Uds97M)
-* [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
-* [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
-* [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
-* [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
-* [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
+* [Full Stack eCommerce Cart build (React, Redux, Node, Express, MongoDB)](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2Fe3184a7896d5%3Ffbclid%3DIwAR1Z8_NAYNfqdIhx_hSps8cwY3lW6XHYlED8HCUytMJTUgjmfKceYGzNSvo&h=AT1jbKD1jjRkgx-NFwPKEmHRG-9QVqEb3aweO4_rQ6XmeYjKtWsWGXwbj5E4e-JtYq1h2sWlAHvEOcAas3k_fxwkaOPW5WeCwYnfZ9l67U9u1TMhwwxty-0t-4CKev1RwRdW)
+* [5 Tips to Master the Art of Clean Code](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fruppysuppy%2F5-tips-to-master-the-art-of-clean-code-57b6%3Ffbclid%3DIwAR1T2j4_5sEU8Zjac61uN525gDCSosUezQdOuZF1CGPyne4JWI-xZQS-Xms&h=AT1jhscjqnUkG45O0dyybEK7OHlcsJ_r4e9M7qP-dH4hrdyRVpfhguzRwH5AZf3roXjocCtVhT3wcs--wZSHcDeYGRLsjbnS8TUgybbBM-QgmKvcOc2Ma5Gn1fFlVwbHrhLF)
+* [8 Node.js Projects To Keep An Eye On 2021](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2Ff122a5fe6239%3Ffbclid%3DIwAR1NDwlaziQWL8Q1u1umeWbpgmroYqzAKWcgnpXBdZ7w4vZmNLDP-34rlvg&h=AT0riXBUMgDXOdW7MBjR8zk-_3hXZc19WaqK6oPgI7rPo3_aS0z52PfVXSdrnNSH4CCJ1F3SN9rD1O9H13wgOgXzgiok0Zb_QjE_W9pROIR1r9UUk5hdQX3SgZfqdzIFnIUb)
+* [Minimal Dashboard - Build with React Material-UI Components](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2F61df232e568b%3Ffbclid%3DIwAR3fhsstQLejUCpsLMPp1Wap3Wx14oE1V7kq78xsjoNHH7HeMRA6fvoo538&h=AT2w9IQ_iU4TpWM_BOVnGsiiZjVaxauQ7MEczWXy_BRyp0pdRAqP-aFOwmKu7h61GHOuFckvkK4mOIJfFcVzFzXbFySxcHYBNc2vnlNPthrRaIvNyFY_IF1KCAyUK28YgUqI)
+* [Code 15 React Projects - Complete Course](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2Ff8ec7bd0e16f%3Ffbclid%3DIwAR057hD11OkdweX1Ngw8LnaITyEBvNhG_vF5ddiECQvsXNNQvzNnvZ6NvC4&h=AT3bx00GvtnIdGt4uB3a5MOQLWooN_kGGARfT6e14CJksWlXQbmhgoMQP6kdGNCVNPIEwKGdvbf1kBVS9RshMegcVejdyTo6p1qunSTfthRhGmB9NJ3mXQwCKg38B6KpAuzW)
 * [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
 * [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
 
