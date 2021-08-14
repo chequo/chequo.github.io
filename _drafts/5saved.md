@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Collections
-permalink: /collection/
+title: Saved
+permalink: /saved/
 icon: bookmark
 type: page
 ---
@@ -11,9 +11,7 @@ type: page
 
 ## 工具
 
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
-
-    生成 box-shadow 的工具。
+* [box-shadow generator](http://www.cssmatic.com/box-shadow) 生成 box-shadow 的工具。
 
 * [gradient-generator](http://www.cssmatic.com/gradient-generator)
 
