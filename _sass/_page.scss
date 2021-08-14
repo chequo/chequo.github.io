@@ -103,9 +103,10 @@
             bottom: 190px;
         }
         .side {
-            box-sizing: border-box;
-            background-color: #f8f8fd;
-            box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+            background-color: rgb(255 255 255);
+            border: 1px solid rgb(225 228 232);
+            border-radius: 6px;
+            box-sizing: border-box;   
             padding-bottom: 1px;
             -ms-word-break: break-all;
             word-break: break-all;
