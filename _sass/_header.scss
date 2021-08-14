@@ -1,6 +1,6 @@
 header {
     background: #24292e;
-    height: 52px;
+    height: 62px;
     color: #9d9d9d;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
     margin-bottom: 20px;
@@ -15,7 +15,7 @@ header {
     .wrapper {
         width: 1140px;
         margin: 0 auto;
-        line-height: 52px;
+        line-height: 62px;
         .brand {
             font-size: 18px;
         }
@@ -40,10 +40,14 @@ header {
                     transition: 0.2s ease;
                     a {
                         display: inline-block;
-                        padding: 0 10px;
-                        height: 52px;
+                        padding: 0px 10px;
+                        height: 62px;
+                        color: white;
+                        font-weight: 600;
+                        white-space: nowrap;
+                        font-size: 14px;
                         &:hover {
-                            background-color: #000;
+                         //   background-color: #000;
                         }
                         i {
                             margin-right: 5px;
@@ -51,8 +55,8 @@ header {
                     }
                     >.active {
                         color: #fff;
-                        background-color: #000;
-                        box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
+                       // background-color: #000;
+                        //box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
             }
