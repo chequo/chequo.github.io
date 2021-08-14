@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+---
+
 # About this Cool Concise Jekyll Blog Theme
 
 [![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
