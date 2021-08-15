@@ -54,3 +54,19 @@ type: page
 
 
 
+
+
+* [Choosing between Client Side Rendering and Server Side Rendering for your *next* project](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Faryanchopra%2Fchoosing-between-client-side-rendering-and-server-side-rendering-for-your-next-project-286g%3Ffbclid%3DIwAR324UNDEX6-WwbTR-HA6c8Z6kONc9nhPvwrpYXgL0xUuvfYtCb1Gsoj_vI&h=AT2cfvmQIU4AeuMogbq3Mt1UQbCsHMjsp15lwvLfgeZttsJsq51h-qqRKQIwJRXoINH3F3O7qx-6YeUM0cv_OYFyql0zH-kpYFix5zz9-4NZat-Mz83d1rdQGr-rUwSqodrz)
+* [Build Glass Website with HTML and CSS Tutorial](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2Ff58217b79820%3Ffbclid%3DIwAR24T0_LWFgFl6S6Kafy3sKTBiHRVdYOtpAgp49S67nvtGtX-hyAw_OUrtA&h=AT1tBWGxJ2-1SD7kEeSoWpZ37LrnpXsl_SK5kevAPVxzOo-CMuKx4qxnh_NaazTZJ2Unu0DwC1rwRC_s8AK5z5UbRUcB9sfxHje4DjiO9XTUoZLz99siPCwOzIDj20pyT9fN)
+* [Hexagonal architecture tutorial: Build maintainable web apps
+Link](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Feducative%2Fhexagonal-architecture-tutorial-build-maintainable-web-apps-5gab%3Ffbclid%3DIwAR3hIQZI5P-4AXOfCNMfbVHzmN8q_0k7JOG0925bPwaeyV8wbvmTjX196Lc&h=AT08FbQDD9ZJRPlhl1oXhsz9zeH8qagKB8lrMnicVasEh0uCATorWkRnaRZ9vOJbZkKXilrSxiGVoZoCH5ryn_Dy-NQI9uOc2jLN8inRpfCwqBvrOvcNliX9NSdKM5BEGcHY)
+* [5 Git Tricks Every Developer Should Know](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fshadid12%2F5-git-tricks-every-developer-should-know-1201%3Ffbclid%3DIwAR2Djrz0tgmR2I5yD_5vOwkfQswHM8Abfs9y37_f2ajiWPc18r0Dx4i6sAU&h=AT1KCXd7hJmR-D4KWMvmflH7d5tW3DiXHL8gpsBQfC-HszQHvUH4b_7ELH-Ar53Su7bvWNa0QbzER39hBxKv2I2DGfVOL3VFKVnIkDdUWilRVYL5ZKP4x_U3o7Ze-lgWf9Kr)
+* [Loaded in 600 milliseconds](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fcindreta%2Floaded-in-600-milliseconds-5daf%3Ffbclid%3DIwAR0pMWOdZZ_UIc-7E_4LK1-o4zxXHNwG9R9vkYDtgm0gMYJ-9QuNfDx17Uw&h=AT28cjumbZZGAXhaUjwOJVZQ6Bpaj9It_G-jYQxTafn2wBAlyjMUw-WjuXGW-n0ih3Ihneren0drKLBUvOlxnWvEqcHIO_dul1BQ-uOl-97xbnUtix-RH-aNgugmnqUt3KXo)
+* [GraphQL requests over HTTP/s are slow](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fandyrichardsonn%2Fgraphql-requests-over-http-s-are-slow-d1p%3Ffbclid%3DIwAR2Djrz0tgmR2I5yD_5vOwkfQswHM8Abfs9y37_f2ajiWPc18r0Dx4i6sAU&h=AT1O8y5SKdfi6ZQJJ097ejHSpDDcyp8Yu0RVlzApxz4Gdfu2tS3tU1hdyt3OAiCpo2XTcoekorMP5-YEUUH4o5QsrwIRBNJ2O5ZxRVVH9AR3XLU8OJuDODP0h7lN8mgESwUR)
+* [React Hooks and Context API - Build a Budget App with Browser Local Storage](https://l.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2F0a5dcd24e76d%3Ffbclid%3DIwAR0soaFiPu8qVKpk13wOwjc5lqnSYZLmHziGEvuo5w-g0ec6xNxfMcFe_Ww&h=AT0_3RwSHu2S6ltDt0YBFjH_Zyiq4ErvOQg4bAfLSa-me6FXhDL29SY6hQE5DDFV6AD6zfTCU8cQOgjgcb4oDVAumPCOnvGDFdNHR-WSXs_CMW5Kcg_MmuSuhc4OL9ZRXwOI)
+* [Level Up Your Commit Messages With These Tips!](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Fakashshyam%2Flevel-up-your-commit-messages-with-these-tips-34d6%3Ffbclid%3DIwAR0mZEGQzLAXQFCOMD6eT5OWfcjxwrO2XPdLoZDNckq8p-1xWQXAVnh8lAM&h=AT0eTLBX4tWoJRLxFLv7sMxLHOlrW5xhcuPOKTB1YDwSxHiR4K3gxYT_2_A8x7fcGEZ6xF-ZQxWV6WE8INMMXcF_s1w3p9QHNoG5WCbGIV7nL69DUHls4y3tNTQ1GkL5QlhA)
+* [3 general 🚀 Productivity 🚀 tools you should be using that you possibly haven't heard of ⁉](https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.to%2Finhuofficial%2F3-general-productivity-tools-you-should-be-using-that-you-possibly-haven-t-heard-of-1h9j%3Ffbclid%3DIwAR2oAm1UZGJogAdDh_yuZ_lwZvOfTvsiPfBNsxo0ynIwlcOeHyoJu5ePpDI&h=AT3QnwPt2fNYlYHtUn8o1YwZreXezjaKKvWUbZNId3JeDsRBMC8gGzBR3H7BmSq7q8rJSdtY7Ui1rr8nMbrM78YLqlp2VK_3ey_-_WdXcR_NbUCndOXjuclWgnblsh5JgHwH)
+
+
+
+
