@@ -9,24 +9,58 @@ type: page
 * content
 {:toc}
 
-## 关于我
+<h1 align="center">
+  <img src="https://avatars.githubusercontent.com/u/40352792" width="200px"/><br/>
+  Hi, I am Somritht
+</h1>
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<div align="center">
+  
+</div>
+<div align="center">
+  <strong>Full-Stack Developer</strong>
+</div>
+<br/>
+<div align="center">
+  <code>Angular</code> <code>React</code> <code>Laravel</code> <code>Express</code> <code>Flutter</code> 
+</div>
 
-## 联系我
+<div align="center">
+  <h3>
+    <a href="https://somritht.github.io/">
+      Website
+    </a>
+    <span> | </span>
+    <a href="https://www.youtube.com/channel/UC2Rjn5uTMlfEmxlxADmRA1Q">
+      YouTube
+    </a> 
+    <span> | </span>
+    <a href="https://dev.to/somritht">
+      Dev.to
+    </a>
+    <span> | </span>
+    <a href="https://somritht.medium.com/">
+      Medium
+    </a>
+  </h3>
+</div>
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+<br/>
 
-## 友情链接
+<h2 align="center">
+  What I have created
+</h2>
 
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
+|   | Name | Description |   |
+|---|:-:|:-:|:-:|
+| **1** | TamPlov | Mobile Application for Local Traveller available on Google Play Store. Discover traveller-recommended places nearby & Read Travel Guides to discover new ways to experience a destination with tips | <a href='https://play.google.com/store/apps/details?id=com.somritht.tamplov&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width='300' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a> |
+|   | Name | Description |   |
 
-## Comments
+<h2 align="center">
+  Support me
+</h2>
 
-{% include comments.html %}
+<div align="center">
+<a href="https://www.buymeacoffee.com/somrith" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 37px !important;width: auto !important;"></a>
+<a href="https://www.patreon.com/somritht" target="_blank"><img src="https://c5.patreon.com/external/logo/downloads_logomark_color_on_white@2x.png" alt="Buy Me A Coffee" height="37px" style="height: 37px !important;width: auto !important;"></a>
+</div>
