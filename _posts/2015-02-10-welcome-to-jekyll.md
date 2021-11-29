@@ -10,11 +10,13 @@ mathjax: true
 
 # Database System
 
-## Why Database?
-គេត្រូវការប្រមូលទិន្ន័យយកមកប្រើប្រាស់ ព្រោះវាផ្គត់ផ្គង់នៅ
-`ពត័មាន​សុក្រិត` ដើម្បីអោយយើងអាចធ្វើការផ្ទៀងផ្ទាត់ទិន្ន័យអាយបានច្បាស់លាស់ និងជាជំនួយការសម្រេចចិត្តបានយ៉ាងត្រឹមត្រូវ ។
+## Git Useful command
 
-## Data vs Information
+#### save change from specific commit
+```
+git reset --hard <full_hash_of_commit_to_reset_to> (ex: fba77286f041051ce0e39ca43596a7f9c98f040e)
+git push --force
+```
 
 
 
