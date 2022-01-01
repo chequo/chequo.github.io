@@ -102,3 +102,15 @@ services:
       POSTGRES_USER: todoapp
       POSTGRES_DB: todos
 ```
+
+If you want to run it as a web server, use the following Dockerfile:
+
+FROM php:7.2-apache
+COPY . /var/www/html/
+build it:
+
+docker build -t my-php-app .
+and run it:
+
+docker run -p 8080:80 -d my-php-app
+you will then have your PHP script runnnig on 8080.
