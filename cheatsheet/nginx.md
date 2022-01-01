@@ -20,9 +20,17 @@ docker-compose -f docler-compose.yml up
 
 #### docker config file
 
-```
+```yml
 version: '2.2'
 
 services:
+  node_app:
+    restart: on-failure
+    build ./node_app
+    port - '3009:5000'
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
   
 ```
