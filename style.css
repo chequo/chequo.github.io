@@ -28,9 +28,18 @@ a {
 
 .main-section {
     background: url("bg_01.png");
-    background-size: 100vw;
+
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contact-section a {
+    color: #fff;
+}
+
+.contact-section a:hover {
+    transition: 0.5s;
+   opacity: 0.6;
 }
 
 @media (min-width: 768px) {
