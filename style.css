@@ -1,0 +1,40 @@
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.bg-black {
+    background-color: #0f0f0f;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.main-section {
+    background: url("bg_01.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
