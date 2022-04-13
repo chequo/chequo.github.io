@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    
+    <link type="text/css" rel="stylesheet" href="main.css">
 
     <script src="bootstrap.bundle.min.js"></script>
   </head>
@@ -38,6 +40,8 @@
     class="scrollspy-example"
     tabindex="0"
   >
+    <section id="info" class="animation-section"></section>
+    
     <section
       class="text-center cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"
       data-snip-rule="1"
@@ -324,5 +328,16 @@
       </main>
       <div class="mt-auto"></div>
     </section>
+    
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../build/three.module.js"
+        }
+      }
+    </script>
+		
+    <script type="module" src="animation.js"></script>
   </body>
 </html>
