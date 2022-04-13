@@ -267,7 +267,8 @@ function init() {
 
     window.onscroll = (e) => {
         console.log("**scroling**");
-        scene.rotation.x = this.scrollY / 700.0;
+        onPointerMove(e);
+        // scene.rotation.x = this.scrollY / 700.0;
       };
     //   onPointerMove
 
