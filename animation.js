@@ -268,8 +268,8 @@ function init() {
     window.onscroll = (e) => {
         // console.log(e);
         // if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-            mouseX = document.body.scrollTop;
-            mouseY = document.body.scrollTop;
+            mouseX = document.body.scrollTop / 3;
+            mouseY = document.body.scrollTop / 3;
         // }
         // else {
             // mouseX--;
