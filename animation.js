@@ -266,15 +266,15 @@ function init() {
     window.addEventListener('resize', onWindowResize);
 
     window.onscroll = (e) => {
-        console.log(e);
-        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-            mouseX++;
-            mouseY++;
-        }
-        else {
-            mouseX--;
-            mouseY--;
-        }
+        // console.log(e);
+        // if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+            mouseX = document.body.scrollTop;
+            mouseY = document.body.scrollTop;
+        // }
+        // else {
+            // mouseX--;
+            // mouseY--;
+        // }
         // mouseX = event.clientX - windowHalfX;
         // mouseY = event.clientY - windowHalfY;
       };
