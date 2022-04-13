@@ -266,9 +266,9 @@ function init() {
     window.addEventListener('resize', onWindowResize);
 
     window.onscroll = (e) => {
-        console.log("**scroling**");
-        onPointerMove(e);
-        // scene.rotation.x = this.scrollY / 700.0;
+        console.log(e);
+        mouseX = event.clientX - windowHalfX;
+        mouseY = event.clientY - windowHalfY;
       };
     //   onPointerMove
 
