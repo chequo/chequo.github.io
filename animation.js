@@ -267,6 +267,18 @@ function init() {
 
 }
 
+document.body.onscroll = () => {
+    //calculate the current scroll progress as a percentage
+    scrollPercent =
+        ((document.documentElement.scrollTop || document.body.scrollTop) /
+            ((document.documentElement.scrollHeight ||
+                document.body.scrollHeight) -
+                document.documentElement.clientHeight)) *
+        100
+    // ;(document.getElementById('scrollProgress') as HTMLDivElement).innerText =
+    //     'Scroll Progress : ' + scrollPercent.toFixed(2)
+}
+
 function onWindowResize() {
 
     windowHalfX = window.innerWidth / 2;
