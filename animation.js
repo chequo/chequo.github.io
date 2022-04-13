@@ -244,7 +244,7 @@ function init() {
 
     //
 
-    const gui = new GUI();
+    // const gui = new GUI();
 
     // gui.add(material, 'sizeAttenuation').onChange(function() {
 
