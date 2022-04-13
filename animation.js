@@ -275,8 +275,8 @@ function init() {
             mouseX--;
             mouseY--;
         }
-        mouseX = event.clientX - windowHalfX;
-        mouseY = event.clientY - windowHalfY;
+        // mouseX = event.clientX - windowHalfX;
+        // mouseY = event.clientY - windowHalfY;
       };
     //   onPointerMove
 
