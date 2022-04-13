@@ -246,13 +246,13 @@ function init() {
 
     const gui = new GUI();
 
-    gui.add(material, 'sizeAttenuation').onChange(function() {
+    // gui.add(material, 'sizeAttenuation').onChange(function() {
 
-        material.needsUpdate = true;
+    //     material.needsUpdate = true;
 
-    });
+    // });
 
-    gui.open();
+    // gui.open();
 
     //
 
