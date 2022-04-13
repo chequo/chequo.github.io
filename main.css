@@ -1,4 +1,4 @@
-body {
+/* body {
 	margin: 0;
 	background-color: #000;
 	color: #fff;
@@ -34,7 +34,7 @@ button {
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: none;
-	z-index: 1; /* TODO Solve this in HTML */
+	z-index: 1;
 }
 
 a, button, input, select {
@@ -42,7 +42,8 @@ a, button, input, select {
 }
 
 .lil-gui {
-	z-index: 2 !important; /* TODO Solve this in HTML */
+	z-index: 2 !important; 
+	
 }
 
 @media all and ( max-width: 640px ) {
@@ -88,4 +89,5 @@ a, button, input, select {
 	background-color: #f00;
 	margin-top: 20px;
 	padding: 10px;
-}
+} 
+*/
