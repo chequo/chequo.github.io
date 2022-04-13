@@ -239,8 +239,8 @@ function init() {
 
     //
 
-    stats = new Stats();
-    document.body.appendChild(stats.dom);
+    // stats = new Stats();
+    // document.body.appendChild(stats.dom);
 
     //
 
