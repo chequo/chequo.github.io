@@ -256,7 +256,7 @@ function init() {
 
     //
 
-    document.body.style.touchAction = 'none';
+    // document.body.style.touchAction = 'none';
     // document.body.addEventListener('pointermove', onPointerMove);
 
     // document.body.addEventListener("wheel", onPointerMove, true);
