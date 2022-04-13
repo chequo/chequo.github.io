@@ -259,24 +259,17 @@ function init() {
     document.body.style.touchAction = 'none';
     // document.body.addEventListener('pointermove', onPointerMove);
 
-    document.body.addEventListener("wheel", onPointerMove, true);
+    // document.body.addEventListener("wheel", onPointerMove, true);
 
     //
 
     window.addEventListener('resize', onWindowResize);
 
-}
+    window.onscroll = (e) => {
+        scene.rotation.x = this.scrollY / 700.0;
+      };
+    //   onPointerMove
 
-document.body.onscroll = () => {
-    //calculate the current scroll progress as a percentage
-    scrollPercent =
-        ((document.documentElement.scrollTop || document.body.scrollTop) /
-            ((document.documentElement.scrollHeight ||
-                document.body.scrollHeight) -
-                document.documentElement.clientHeight)) *
-        100
-    // ;(document.getElementById('scrollProgress') as HTMLDivElement).innerText =
-    //     'Scroll Progress : ' + scrollPercent.toFixed(2)
 }
 
 function onWindowResize() {
