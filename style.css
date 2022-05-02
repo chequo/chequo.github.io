@@ -16,7 +16,7 @@ a {
 
 .h100vh {
     min-height: 100vh;
-    padding: auto 30px;
+    padding: 30px auto;
 }
 
 .bd-placeholder-img {
