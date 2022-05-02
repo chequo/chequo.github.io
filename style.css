@@ -86,9 +86,9 @@ a {
   }
   .circle_1 {
     position: absolute;
-    left: auto;
+    right: auto;
     top: 875px;
-    right: -476px;
+    left: 100px;
     bottom: auto;
     z-index: -3;
     display: block;
