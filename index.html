@@ -1,56 +1,36 @@
 ---
-title: "Pintereso Free Jekyll Theme"
 layout: default
-description: "A great collection of free and premium themes and templates."
+title: "The high quality, completely customizable, performant and 100% free blog template for Jekyll"
+description: "Chalk uses all the best tools and merges them into one premium blogging theme."
 ---
 
-<section class="mt-4 mb-5">
-    
-    <div class="container mb-4">
-        <h1 class="font-weight-bold title">Explore</h1>    
-        <div class="row">
-        {% include menu-categories.html %}
-        </div>
-    </div>
-
-    
-<div class="container-fluid">
-    
-    <div class="card-columns">        
-        {% for post in paginator.posts reversed %}
-            {% include card-post.html %}
-        {% endfor %}            
-    </div>
-
-    <div class="row justify-content-center mt-5">
-     <!-- Pagination links -->
-        {% if paginator.total_pages > 1 %}
-        <div class="pagination"> 
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-          {% else %}
-            <span class="prev">&laquo; Prev</span>
-          {% endif %}
-
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <span class="webjeda">{{ page }}</span>
-            {% elsif page == 1 %}
-              <a href="{{site.baseurl}}/">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-          {% else %}
-            <span class="next">Next &raquo;</span>
-          {% endif %}
-        </div>
-        {% endif %}      
-    </div>
-
-</div>    
-  
-</section>
+<ul class="article-list">
+  {% for post in paginator.posts %}
+    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+        <h5>
+          {{ post.title }}
+          {% include svg-icon.html icon="arrow-right" %}
+        </h5>
+      </a>
+      <p>
+        {% if post.description %}
+          {{ post.description }}  
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+      </p>
+      {% include article/info-footer.html post=post %}
+    </li>
+  {% endfor %}
+  {% if paginator.total_pages > 1 %}
+    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
+      {% endif %}
+    </li>
+  {% endif %}
+</ul>
