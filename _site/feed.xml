@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2019-02-03T13:19:25+00:00</updated><id>http://localhost:4001/</id><title type="html">OD Groundbreakers</title><subtitle>We write tutorials about Cloud Native, DevOps, Blockchain, Microservices, Oracle Cloud Infrastructure and more.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">Weblogic Operator for K8s - Samples</title><link href="http://localhost:4001/weblogic-kubernetes-samples/" rel="alternate" type="text/html" title="Weblogic Operator for K8s - Samples" /><published>2019-02-03T00:00:00+00:00</published><updated>2019-02-03T00:00:00+00:00</updated><id>http://localhost:4001/weblogic-kubernetes-samples</id><content type="html" xml:base="http://localhost:4001/weblogic-kubernetes-samples/">&lt;p&gt;These samples provide simple demonstrations of how to accomplish common tasks.
+The samples are &lt;strong&gt;not&lt;/strong&gt; intended to be used in production deployments or to be depended upon to
+create production environments.  They are provided for educational and demonstration purposes only.&lt;/p&gt;
+
+&lt;p&gt;While these samples may be useful and usable as is, it is intended that you would read through all of the sample code in detail, understand how the given sample works, and then customize it to suit your needs.&lt;/p&gt;
+
+&lt;h2 id=&quot;sample-scripts&quot;&gt;Sample scripts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/create-weblogic-domain-credentials/README.md&quot;&gt;Sample for creating a Kubernetes secret&lt;/a&gt; that contains the Administration Server credentials. This secret can be used in creating a WebLogic domain resource.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/create-weblogic-domain-pv-pvc/README.md&quot;&gt;Sample for creating a PV or PVC&lt;/a&gt; that can be used by a domain resource as the persistent storage for the WebLogic domain home or log files.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/create-weblogic-domain/domain-home-on-pv/README.md&quot;&gt;Sample for creating a WebLogic domain home on an existing PV or PVC&lt;/a&gt;, and the domain resource YAML file for deploying the generated WebLogic domain.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/create-weblogic-domain/domain-home-in-image/README.md&quot;&gt;Sample for creating a WebLogic domain home inside a Docker image&lt;/a&gt;, and the domain resource YAML file for deploying the generated WebLogic domain.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/elasticsearch-and-kibana/README.md&quot;&gt;Sample for configuring the Elasticsearch and Kibana&lt;/a&gt; deployments and services for the operator’s logs.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/rest/README.md&quot;&gt;Sample for generating a self-signed certificate and private key&lt;/a&gt; that can be used for the operator’s external REST API.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;scripts/terraform/README.md&quot;&gt;Sample for creating an OKE cluster using Terraform&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sample-helm-charts&quot;&gt;Sample Helm charts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;charts/traefik/README.md&quot;&gt;Sample Traefik Helm chart&lt;/a&gt; for setting up a Traefik load balancer for WebLogic clusters.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;charts/voyager/README.md&quot;&gt;Sample Voyager Helm chart&lt;/a&gt; for setting up a Voyager load balancer for WebLogic clusters.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;charts/ingress-per-domain/README.md&quot;&gt;Sample Ingress Helm chart&lt;/a&gt; for setting up a Kubernetes Ingress for each WebLogic cluster using a Traefik or Voyager load balancer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;charts/apache-webtier/README.md&quot;&gt;Sample Apache  Helm chart&lt;/a&gt; and &lt;a href=&quot;charts/apache-samples/README.md&quot;&gt;Apache samples using the default or custom configurations&lt;/a&gt; for setting up a load balancer for WebLogic clusters using the Apache HTTP Server with WebLogic Server Plugins.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">These samples provide simple demonstrations of how to accomplish common tasks. The samples are not intended to be used in production deployments or to be depended upon to create production environments. They are provided for educational and demonstration purposes only.</summary></entry><entry><title type="html">Everything you need to know to get started in the fascinating world of Blockchain</title><link href="http://localhost:4001/blockchain/everything-you-need-to-know-to-get-started-in-the-fascinating-world-of-blockchain/" rel="alternate" type="text/html" title="Everything you need to know to get started in the fascinating world of Blockchain" /><published>2019-01-30T00:00:00+00:00</published><updated>2019-01-30T00:00:00+00:00</updated><id>http://localhost:4001/blockchain/everything-you-need-to-know-to-get-started-in-the-fascinating-world-of-blockchain</id><content type="html" xml:base="http://localhost:4001/blockchain/everything-you-need-to-know-to-get-started-in-the-fascinating-world-of-blockchain/">&lt;h3 id=&quot;absolute-truth-does-not-exist--or-does-it&quot;&gt;Absolute truth does not exist … or does it?&lt;/h3&gt;
+
+&lt;p&gt;You are probably wondering if you have finally found an article in which the basic concepts of this technological trend are explained in a simple way. Usually, we find terms such as “Proof of Work”, “Smart Contract”, or “Hyperledger”. However, do we know what they really mean? And above all, what paradigm changes they will bring?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In our day to day we usually read quotes such as: “What the internet did for communications, blockchain will do for trusted transactions” — Forbes, or “The technology most likely to change the next decade of business is not the social web, big data, the cloud, robotics or even artificial intelligence. It is the Blockchain “- Harvard Business Review. But, will Blockchain really impact in our lives as Internet did?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After some time researching around the ins and outs of Blockchain through different sources, I think I have concentrated the most important points to understand the big possibilities of this technology, which will transform sectors such as financial, energy or security. It will stir up any organization in which transactions are usually used, ultimately.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First things first … What is Blockchain?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blockchain, also known as DLT (Distributed Ledger Technology) is a decentralized mechanism that keeps track of all transactions made between two or more nodes in a network, in a secure and distributed way. It is nothing more than a great accounting book that is replicated in the machines of all the participants of a network, making impossible to modify the information contained in it, and which only users with permission can access, turning it into a shared source of truth.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*iOe5bg-HGlo94D9iTbZzCA.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The mystery … Who created Blockchain?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All great stories hide mysteries, conspiracy theories, and different enigmas. Blockchain has all the necessary ingredients to turn its birth into a legend.&lt;/p&gt;
+
+&lt;p&gt;On Halloween 2008, several hundred people belonging to different cryptographic communities received an email with the following sender: Satoshi Nakamoto. He informed them that he had been working on a system that eliminated the need for trust intermediaries when making transactions, and solved the problem of double spending. All this was explained in the paper: &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;“Bitcoin: A Peer-to-Peer Electronic Cash System”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first cryptographic currency based on Blockchain was created. And unlike most entrepreneurs and CxOs of the world’s largest multinationals, which feed the dreamers with their success stories in their search of success, its creator decided to remain anonymous.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But … What did Satoshi Nakamoto explain in his paper?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Until recently, whenever we needed to make a transaction, we had some central authority or third party that acted as an intermediary. Whether it was in the payment of an asset online, in the change of a property’s name, or when patenting a product, we relied on the truthfulness of banks, notaries or any other organization.&lt;/p&gt;
+
+&lt;p&gt;Blockchain involves a paradigm shift in this system, by introducing a peer-to-peer exchange mechanism in a distributed and secure way, thanks to the cryptographic algorithm on which it is based.&lt;/p&gt;
+
+&lt;p&gt;When several actors that are part of a Blockchain distributed network decide to exchange value (cryptographic currency, property title, etc.), a new block composed of a set of transactions is sent to all the nodes that participate in the network. At that moment, those nodes initiate the verification process, which consists in verifying that the information contained in the block is valid and that the bases of the agreed terms have not been altered. Once the majority of the nodes have validated it, the block is sealed with a cryptographic hash (algorithm) based on the information that contains and the previous block hash. Thus, the manipulation or alteration of the data contained in each of the blocks that are part of the chain is fairly impossible, and an immutable record is obtained, a source of truth.&lt;/p&gt;
+
+&lt;p&gt;In an effort to get a large number of nodes involved in the verification process, Satoshi Nakamoto proposed a system of miners. These users keep a copy of the chain in their machines, from where they use its compute capacity to calculate the complex mathematical operations necessary to incorporate a new block in the chain. Then, those miners who get the solution, obtain a great monetary reward. This process is called &lt;em&gt;Proof of Work&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*-elE9DQRg3E9S1SglRCEwQ.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Moreover, in most data centers around the world, the databases are replicated to prevent a single point of failure and to provide high availability to the service. It is an expensive solution, but essential for any organization that handles sensitive data. In the case of Blockchain and due to its distributed nature, all the nodes that are part of the network have a copy of the blocks, avoiding a single point of failure and making insignificant the probability of data loss.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Permissionless” and “Permissioned” Blockchain&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Even though one of the first applications of Blockchain was Bitcoin, many other implementations of this technology have already been found. In the case of cryptographic currencies, the Blockchain network is public. Any user can join and obtain a copy of all transactions in the chain and participate in the verification process. On the other hand, it is also possible to create a private Blockchain network, in which only users with an invitation have access to the information contained in it and can participate in the validation process.&lt;/p&gt;
+
+&lt;p&gt;Currently, several open source initiatives such as Ethereum, Corda or &lt;em&gt;Hyperledger&lt;/em&gt; Fabric, have developed their own implementations of Blockchain, making life easier for developers by providing different tools and frameworks. Other private companies, such as Oracle, have also put in place solutions based on this powerful technology.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let’s give an example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we have an understanding of how a Blockchain public network such as Bitcoin works, let’s see one practical application of a private network. On this &lt;a href=&quot;https://www.youtube.com/watch?v=NGk9k7uP4F0&quot;&gt;link&lt;/a&gt;, you will find the complete analysis of this case, which was modeled using the Blockchain service in the Oracle Cloud.&lt;/p&gt;
+
+&lt;p&gt;To improve the components’ traceability of their vehicles, a car manufacturer has integrated Blockchain with four of its dealers, creating the following network:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*Sn9Jok9e_lLD4Gp47XqdAw.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The car manufacturer is the founder of the Blockchain network, and the four dealers participate in it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*fdBIPOQfvn9OAFqIKS55ow.gif&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whenever a vehicle’s component is sold by one of the suppliers to the manufacturer, and once the transaction is approved by both parties, the transaction is registered in the Blockchain network. Thus, a large database shared between the parties is obtained, in a secure and unalterable way. Moreover, the dealers only have access to the information of their components, but not to those of other dealers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*fPBQs0X3RtFyy9YICWGAcw.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is just a simple practical example, that helps to understand better the countless applications that Blockchain has. For example, this solution in place would have avoided the scandal over the illegal installation of software that Volkswagen carried out to eleven million vehicles, in order to manipulate the results of the technical controls of polluting emissions. With a source of truth like Blockchain, it would have been possible to track the supply chain of all the cars, from the manufacturer to the customer, avoiding the manipulation in any of its phases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Last but not least … What are the Smart Contracts?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Conventionally, contracts are used to close agreements between two or more parties. In Blockchain’s world, the Smart Contracts define the rules of the agreed terms and execute the outcomes automatically, without the need for an intermediary institution. The &lt;em&gt;Smart Contracts&lt;/em&gt; are scripts that can be programmed in different programming languages such as Java or Go, and that verify that when any of the conditions described in the contract is satisfied, the transaction is made.&lt;/p&gt;
+
+&lt;p&gt;Imagine that you decide to bet five euros on the fact that Real Madrid will win the next game against Barcelona, and another person bets the same amount to the opposite case. With a Smart Contract in place between the two parts, the result of the game would be verified automatically, and the money would be sent to the winner. In this sense, no intermediaries neither a third party would be needed to act as an arbitrator.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Absolute truth does not exist … or does it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blockchain is the first source of distributed and inalterable truth. A large public database globally. Secure and collaborative.&lt;/p&gt;
+
+&lt;p&gt;There is no doubt that it is time to get on board with this amazing technology, in which the developer’s community will have a decisive role, not only in its growth but also in its transformation and evolution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This sounds great, but … How can I get started and try it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Shortly, the Blockchain service will be available in the Oracle Cloud within the &lt;em&gt;free 30-days Trial&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;But in the meanwhile, there are many other solutions available to test. Why not try them?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://myservices.us.oraclecloud.com/mycloud/signup?sourceType=:so:bl:or::RC_WWSA180813P00054:Q3_MM_JB_KS_2&amp;amp;SC=:so:bl:or::RC_WWSA180813P00054:Q3_MM_JB_KS_2&amp;amp;pcode=WWSA180813P00054:Q3_MM_JB_KS_2&quot;&gt;&lt;em&gt;Sign Up for Free!&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*wGVDR9h6t7tW7cnd5dWSDw.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Raquel Teresa &lt;a href=&quot;https://twitter.com/Raquel_Teresa&quot;&gt;@Raquel_Teresa&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;Cloud Sales Consultant and Developer Advocate @ Oracle Digital.
+Passionate about technology and people.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Absolute truth does not exist … or does it?</summary></entry><entry><title type="html">Creating a blog with Jekyll and GitHub Pages</title><link href="http://localhost:4001/miscellaneous/creating-blog-jekyll/" rel="alternate" type="text/html" title="Creating a blog with Jekyll and GitHub Pages" /><published>2019-01-29T00:00:00+00:00</published><updated>2019-01-29T00:00:00+00:00</updated><id>http://localhost:4001/miscellaneous/creating-blog-jekyll</id><content type="html" xml:base="http://localhost:4001/miscellaneous/creating-blog-jekyll/">&lt;p&gt;How many of you had the need to create a quick blog for a school project, a
+hackathon, or a work project but had no time to learn how to use a new complex
+Content Management System (CMS) like &lt;a href=&quot;http://drupal.org/&quot;&gt;Drupal&lt;/a&gt; or
+&lt;a href=&quot;http://www.wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; from scratch?&lt;/p&gt;
+
+&lt;p&gt;As the new &lt;a href=&quot;https://medium.com/@lucaiannario/joining-a-developer-advocacy-team-f4c376d1b960&quot;&gt;Developer Advocacy team @
+Oracle&lt;/a&gt;
+was created, we wanted to make sure we have a reliable way to publish our own
+stories, tutorials, code samples, and reference architectures.&lt;/p&gt;
+
+&lt;p&gt;Publishing content on Medium or similar platforms is great, but we would also
+like to start using our own “branding” — therefore we were looking for something
+like a customizable CMS but easier to use and quicker to deploy.&lt;/p&gt;
+
+&lt;p&gt;We have found an easy solution to achieve our goal: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll
+&lt;/a&gt;+ &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a simple, extendable, static site generator. It allows you to write
+content with your favorite markup language, e.g. Markdown, and generate a
+navigable website in seconds.&lt;/p&gt;
+
+&lt;p&gt;Through themes and templates (or layouts), it is possible to customize the
+“look&amp;amp;feel” of your site, as well as the navigation and additional features like
+social media sharing. It also allows you to have a (client-side JavaScript
+based) Search functionality which is something great you would not expect from a
+static HTML website.&lt;/p&gt;
+
+&lt;p&gt;Installing Jekyll on your machine it’s very easy and you can find the quick
+start documentation &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;windows-users&quot;&gt;Windows users&lt;/h4&gt;
+
+&lt;p&gt;Windows users are required to install some additional dependencies for Jekyll to
+work properly. In order to do so, make sure to add the following lines to the
+Gemfile:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tzinfo'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;win_platform?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tzinfo-data'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;win_platform?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'wdm'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;win_platform?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will allow installing additional Ruby gems that are needed on Windows only.
+After adding these lines, make sure to run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;. Additional
+information can be found
+&lt;a href=&quot;https://jekyllrb.com/docs/installation/windows/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;GitHub Pages is a static site hosting service designed to host your personal,
+organization, or project pages directly from a GitHub repository. It is possible
+to host a Jekyll generated website for free just using a regular GitHub
+repository.&lt;/p&gt;
+
+&lt;p&gt;After creating a new GitHub repository, it is possible to enable the GitHub Page
+functionality through its settings and your website will be immediately
+available at *https://&lt;repo_name&gt;.github.io*. You only need to make sure the
+repository name ends with “github.io”.&lt;/repo_name&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*Os9lZ36qyz3NU29OhGf9Fw.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In our case, the website is available at
+&lt;a href=&quot;https://oci-tutorials.github.io/&quot;&gt;https://oci-tutorials.github.io&lt;/a&gt;, while the
+source content is stored at the corresponding repository
+&lt;a href=&quot;https://github.com/oci-tutorials/oci-tutorials.github.io&quot;&gt;https://github.com/oci-tutorials/oci-tutorials.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you browse to the GitHub repository, you can see it contains a bunch of
+static HTML files, CSS, and YAML files. HTML is generated by Jekyll starting
+from the Markdown files added to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*6EiHn-Y4Q8BerDCaqwQm7g.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;final-result&quot;&gt;Final result&lt;/h3&gt;
+
+&lt;p&gt;As you can see below, this is the site generated from our GitHub repository
+containing Markdown content. Within a few hours, we were able to have a new site
+up and running, which will enable us to reach out as many developers as we can.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*N0Cp-rV-fzHmYX-MG2SgzQ.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any suggestion or feedback (or you have found any bugs), feel free
+to reach out and let us know.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Luca Iannario &lt;a href=&quot;https://twitter.com/liannario&quot;&gt;@liannario&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;Developer Advocate at Oracle. 
+When I am not on the clouds, I like travelling and taking pictures.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">How many of you had the need to create a quick blog for a school project, a hackathon, or a work project but had no time to learn how to use a new complex Content Management System (CMS) like Drupal or Wordpress from scratch?</summary></entry><entry><title type="html">Future of Serverless</title><link href="http://localhost:4001/serverless/future-of-serverless/" rel="alternate" type="text/html" title="Future of Serverless" /><published>2019-01-28T00:00:00+00:00</published><updated>2019-01-28T00:00:00+00:00</updated><id>http://localhost:4001/serverless/future-of-serverless</id><content type="html" xml:base="http://localhost:4001/serverless/future-of-serverless/">&lt;h2 id=&quot;future-of-serverless&quot;&gt;Future of Serverless&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*ouyuETWpSy2RWas30NdZdQ.jpeg&quot; alt=&quot;Techcrunch via Shutterstock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve heard of Artificial Intelligence, IoT and Blockchain …&lt;/p&gt;
+
+&lt;p&gt;What about “Serverless” computing? You will hear this term being thrown around a lot, as a buzzword, but to sum up, it just means that a cloud provider will be allowing developers to focus more on developing applications by offering a serverless platform. In an interview with &lt;a href=&quot;https://www.informationweek.com/cloud/platform-as-a-service/how-serverless-applications-will-change-your-business/d/d-id/1324389&quot;&gt;InformationWeek.com, &lt;/a&gt;Joe Emison the CTO of BuildFax said :&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Software is eating the world. Companies that can develop software most effectively will be among those that succeed”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don’t think anybody can argue with this statement. So why has Serverless architecture become this hidden technology that only developers know about? What if I told you many are already seeing benefits from Serverless-based workflows, and in the near future, this type of architecture could power practically the whole internet?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where did it start?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Before we dive straight into the big bad world of Serverless architecture, it will be easier to understand where it came from. Ever heard of a virtual machine? Well it’s simply a way to have more than one operating system on your host machine. It’s really useful, especially if you’re working on a few different projects which require different environments. The only bad thing? The amount of resources a virtual machine required became a problem.&lt;/p&gt;
+
+&lt;p&gt;The solution to this was Containerization. If you want to learn more about containers follow &lt;a href=&quot;https://medium.com/@mirknn/containers-docker-kubernetes-and-serverless-beginners-blog-d477abdedbaf&quot;&gt;my previous article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is serverless? The no-servers myth&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Serverless is a cloud execution model. The name Serverless itself is a bit misleading — as of course there are servers managed by the companies or individuals cloud provider. You’ve all heard of Iaas, Paas, Saas…. What about Faas? Function as a Service — The idea is that developers only pay-per-execution, and they don’t need to worry about scaling their applications or machine resources. They can spend their time (wait for it) –actually developing! This in turn means less time to market which is another benefit of developing on a &lt;a href=&quot;https://fnproject.io/&quot;&gt;serverless platform.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That all sounds great — but there are still some growing pains involved in the implementation process. This is because companies that have massive monolith architectures find it hard to change to a function driven system. And I’m not saying that this is an easy-breezy process, but once they have this new Serverless architecture, they open themselves up to a much more productive workflow. I’m not a professional developer myself (more of a technology enthusiast). However, I firmly believe that any new technology takes time to grow out of the awkward stages — after all, doesn’t every new technology go through this?&lt;/p&gt;
+
+&lt;p&gt;It is our responsibility to take a positive outlook on emerging tech and spread that positivity, and by doing this the future of Serverless technologies will be a bright one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*ym1y1KhkDH8ZpCUpknwweA.jpeg&quot; alt=&quot;Doc, DOC! What about imgur’s servers? by AntiCircleJerker on imgur&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Future of Serverless&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2017, the serverless architecture market was valued $3.20 billion, and was expected to grow to $14.93 billion by 2023, according to a &lt;a href=&quot;http://www.sbwire.com/press-releases/serverless-architecture-market-expected-to-reach-1493-billion-by-2023-1037478.htm&quot;&gt;report&lt;/a&gt; conducted by &lt;a href=&quot;http://connect.releasewire.com/company/marketsandmarkets-51796.htm&quot;&gt;MarketsandMarkets.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This massive growth spurt projection isn’t that surprising, as the popularity of cloud-native services is only rising. I’ve no doubt that the future will be driven by containerized apps and pay-by-use functions being fired off in a cloud providers space by way of automation. Imagine a world where you didn’t need to worry about the physical maintenance of your hardware that helps develop and run all your applications. This has been and always will be the draw to cloud computing.&lt;/p&gt;
+
+&lt;p&gt;So keep reading and learning— if you are interested in disruptive technology you’ll want to keep an eye on serverless computing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Miriam Keenan &lt;a href=&quot;https://twitter.com/mirknn&quot;&gt;@mirknn&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;Digital &amp;amp; Developer Advocate Intern at Oracle.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Future of Serverless</summary></entry><entry><title type="html">Miriam Keenan</title><link href="http://localhost:4001/contributors/about-me-miriam/" rel="alternate" type="text/html" title="Miriam Keenan" /><published>2019-01-28T00:00:00+00:00</published><updated>2019-01-28T00:00:00+00:00</updated><id>http://localhost:4001/contributors/about-me-miriam</id><content type="html" xml:base="http://localhost:4001/contributors/about-me-miriam/">&lt;h2 id=&quot;about-me&quot;&gt;About me&lt;/h2&gt;
+
+&lt;p&gt;Hey, welcome to our community.&lt;/p&gt;
+
+&lt;p&gt;My name is Miriam and I’m a Digital Advocate who recently joined the &lt;a href=&quot;https://medium.com/@mirknn/helping-developers-by-learning-about-what-matters-ea33fd9ea0b3&quot;&gt;Developer Advocacy team&lt;/a&gt; here at Oracle Digital. I’m also studying to complete my BSc. in Information Technology at Technological University Dublin. I’m pretty obsessed with the world of technology.&lt;/p&gt;
+
+&lt;p&gt;The great thing about being part of this new team is that we’re all passionate about the power of cloud computing. Through our varied levels of experience and knowledge, we intend to enable developers in our community to get the most out of their creations.&lt;/p&gt;
+
+&lt;p&gt;From me, you’ll get a first-hand experience of getting started with Oracle cloud services. I’m currently interested in making stuff with Python, Java, and web development frameworks like Flask. The services I want to focus on are Container Management and Serverless Functions – but I won’t limit myself as there might be more on the horizon!&lt;/p&gt;
+
+&lt;p&gt;Watch this space for tutorials, discussions, videos and more.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Miriam Keenan &lt;a href=&quot;https://twitter.com/mirknn&quot;&gt;@mirknn&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;Digital &amp;amp; Developer Advocate Intern at Oracle.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">About me</summary></entry><entry><title type="html">What is this “FaaS”?</title><link href="http://localhost:4001/serverless/what-is-faas/" rel="alternate" type="text/html" title="What is this “FaaS”?" /><published>2019-01-25T00:00:00+00:00</published><updated>2019-01-25T00:00:00+00:00</updated><id>http://localhost:4001/serverless/what-is-faas</id><content type="html" xml:base="http://localhost:4001/serverless/what-is-faas/">&lt;h1 id=&quot;what-is-this-faas-thing-everyone-talking-about-i-dont-want-a-microservice-i-want-a-big-service-that-makes-me-lots-of-money&quot;&gt;What is this “FaaS” thing everyone talking about? I don’t want a “microservice”, I want a big service that makes me lots of money!&lt;/h1&gt;
+
+&lt;h3 id=&quot;what-is-function-as-a-service-faas&quot;&gt;What is Function-as-a-Service (FaaS)?&lt;/h3&gt;
+
+&lt;p&gt;FaaS is the concept of serverless computing with serverless architectures.
+Software developers can use this to deploy an individual function (Piece of
+code), that performs an action, or piece of business logic, without worrying
+about where they are running it (eg. serverless). They are expected to start
+within milliseconds and process individual requests and then the process ends.
+Sounds simple right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Principles of FaaS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Completely takes the pain of servers and environment constraints away from the
+developer&lt;/li&gt;
+  &lt;li&gt;Billing based on consumption and executions, not server instance sizes&lt;/li&gt;
+  &lt;li&gt;Services that are event-driven and instantaneously scalable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/0*5B_ycnAD2U7zITih.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the basic level, you could describe them as a way to run some code when a
+“thing” happens. Shows how easy it is to process an HTTP request as a
+“Function”.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;benefits--use-cases&quot;&gt;Benefits &amp;amp; Use Cases&lt;/h4&gt;
+
+&lt;p&gt;Like most things, FaaS is not going to be perfect for every app.&lt;/p&gt;
+
+&lt;p&gt;In general, we see companies and developers using them mostly for our very high
+volume transactions so that they can scale when needed and don’t have to have
+redundant servers the rest of the time.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;High volume transactions — Isolate them and scale them&lt;/li&gt;
+  &lt;li&gt;Dynamic or burstable workloads — If you only run something once a day or month,
+no need to pay for a server 24/7/365&lt;/li&gt;
+  &lt;li&gt;Scheduled tasks — They are a perfect way to run a certain piece of code on a
+schedule, think cron jobs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;types-of-functions&quot;&gt;Types of Functions&lt;/h4&gt;
+
+&lt;p&gt;There are a lot of potential uses for functions. Below is a simple list of some
+common scenarios. Support and implementation for them vary by the provider or
+service your using.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scheduled tasks or jobs.&lt;/li&gt;
+  &lt;li&gt;Process a web request.&lt;/li&gt;
+  &lt;li&gt;Process queue messages.&lt;/li&gt;
+  &lt;li&gt;Run manually.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Developers hate servers and server management. The idea of serverless
+architectures is a dream came true for most developers. That said, I can’t see
+FaaS as being a complete replacement for normal application architectures. For
+example a basic web application, it would take a lot of functions.&lt;/p&gt;
+
+&lt;p&gt;In my humble opinion, function-based apps are a perfect fit for replacing
+microservice style architectures and smaller high volume back-end services.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tag/serverless?source=post&quot;&gt;Serverless&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tag/cloud-computing?source=post&quot;&gt;Cloud Computing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tag/developer?source=post&quot;&gt;Developer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tag/programming?source=post&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tag/introduction?source=post&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Brian Mathews &lt;a href=&quot;https://twitter.com/DevOps4Days&quot;&gt;@DevOps4Days&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">What is this “FaaS” thing everyone talking about? I don’t want a “microservice”, I want a big service that makes me lots of money!</summary></entry><entry><title type="html">Serverless Functions on OCI using FN</title><link href="http://localhost:4001/serverless/serverless-fuctions-with-fn/" rel="alternate" type="text/html" title="Serverless Functions on OCI using FN" /><published>2019-01-25T00:00:00+00:00</published><updated>2019-01-25T00:00:00+00:00</updated><id>http://localhost:4001/serverless/serverless-fuctions-with-fn</id><content type="html" xml:base="http://localhost:4001/serverless/serverless-fuctions-with-fn/">&lt;h1 id=&quot;serverless-functions-on-oracle-cloud-using-the-open-source-fn-project&quot;&gt;Serverless Functions on Oracle Cloud using the open source FN project&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*2KyQBP3r911sr6C3-Dh_Jg.png&quot; alt=&quot;&quot; /&gt;
+&lt;span class=&quot;figcaption_hack&quot;&gt;FN logo&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fn-project&quot;&gt;Fn Project&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://fnproject.io/&quot;&gt;Fn project&lt;/a&gt; is an open source, container native, and
+cloud agnostic serverless platform which is being funded by Oracle. It’s easy to
+use, supports every programming language, and in my opinion, performs very well.&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;As this is an open source project as opposed to a lot of “as a service”
+offerings available, we are left with the first task of, where we would like to
+run the project.&lt;/p&gt;
+
+&lt;p&gt;The good thing about this, however, is that the FN project is very versatile so
+you can run it almost anywhere from your laptop, to on-premise, to your
+favourite cloud platform.&lt;/p&gt;
+
+&lt;p&gt;In this blog, I will be walking you through getting started with FN hosted on
+Oracle Clouds OKE (Kubernetes Engine). There are 2 reasons which I chose this as
+a platform for testing firstly the easy access and use of the OKE service for a
+fully managed Kubernetes service and secondly its completely free to test with a
+&lt;a href=&quot;http://bit.ly/blogMedium&quot;&gt;free trial!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started&quot;&gt;Getting started&lt;/h3&gt;
+
+&lt;p&gt;For getting started with FN on Kubernetes the team at FN have made it really
+easy by releasing a Helm chart to give easy installation. This chart deploys a
+fully functioning instance of the &lt;a href=&quot;https://github.com/fnproject/fn&quot;&gt;Fn&lt;/a&gt; platform
+on a Kubernetes cluster using the &lt;a href=&quot;https://helm.sh/&quot;&gt;Helm&lt;/a&gt; package manager.&lt;/p&gt;
+
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PV provisioner support in the underlying infrastructure (for persistent data,
+see below )&lt;/li&gt;
+  &lt;li&gt;Install &lt;a href=&quot;https://github.com/kubernetes/helm#install&quot;&gt;Helm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Initialise Helm by installing Tiller, the server portion of Helm, to your
+Kubernetes cluster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;let-get-started&quot;&gt;Let get started:&lt;/h4&gt;
+
+&lt;p&gt;Download helm using a package manager for ease:&lt;/p&gt;
+
+&lt;p&gt;Initialise Helm once installed:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;helm init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;installing-the-chart&quot;&gt;Installing the Chart&lt;/h3&gt;
+
+&lt;p&gt;Clone the fn-helm repo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone 
+ &amp;amp;&amp;amp; cd fn-helm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Install chart dependencies from
+&lt;a href=&quot;https://github.com/fnproject/fn-helm/blob/master/fn/requirements.yaml&quot;&gt;requirements.yaml&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;helm dep build fn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The default chart will install fn as a private service inside your cluster with
+ephemeral storage, to configure a public endpoint and persistent storage you
+should look at
+&lt;a href=&quot;https://github.com/fnproject/fn-helm/blob/master/fn/values.yaml&quot;&gt;values.yaml&lt;/a&gt;
+and modify the default settings. For OKE on Oracle Cloud it is as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn:                         
+service:                            
+annotations:                               service.beta.kubernetes.io/oci-load-balancer-shape: 400Mbps                       ui:                         
+service:                            
+annotations:                                 service.beta.kubernetes.io/oci-load-balancer-shape: 400Mbps                                               mysql:                          
+persistence:                             
+enabled: true                             
+existingClaim: tc-fn-mysql                                               redis:                          
+persistence:                             
+enabled: true                             
+existingClaim: tc-fn-redis                                                                       rbac:                         
+enabled: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once you have this edited for your relevant Kubernetes host we can go ahead and
+install the chart on Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;To install the chart with the release name &lt;code class=&quot;highlighter-rouge&quot;&gt;release&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;helm install --name release fn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;* if you do not pass the — name flag, a release name will be
+auto-generated. You can view releases by running helm list (or helm ls, for
+short).*&lt;/p&gt;
+
+&lt;p&gt;Now that FN has been installed we can start the service.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The above command runs Fn in a single server mode with an embedded database and
+queue. Behind the scenes, the &lt;code class=&quot;highlighter-rouge&quot;&gt;fn start&lt;/code&gt; command runs a Docker image called
+&lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/fnserver&lt;/code&gt; in a privileged mode. It also mounts the Docker socket into
+the container as well as the &lt;code class=&quot;highlighter-rouge&quot;&gt;/data&lt;/code&gt; folder in the current working directory
+(this is where database and queue information is stored). Finally, it exposes
+port &lt;code class=&quot;highlighter-rouge&quot;&gt;8080&lt;/code&gt; to the host so you can invoke it on that port.&lt;/p&gt;
+
+&lt;h3 id=&quot;first-function&quot;&gt;First function&lt;/h3&gt;
+
+&lt;p&gt;The FN CLI which we have installed has a built-in &lt;code class=&quot;highlighter-rouge&quot;&gt;init&lt;/code&gt; command which we use
+for new functions.&lt;/p&gt;
+
+&lt;p&gt;For FN &amp;amp; Serverless functions there are a few terms which are useful to know
+that I will refer too in the next steps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt; &lt;br /&gt; Apps are a way to group your functions and triggers logically
+under the same name e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;test-app&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Triggers&lt;/strong&gt;&lt;br /&gt; Triggers are pointers to functions used for invoking the
+function code. Think of it as an endpoint where the function can be invoked
+from, e.g.&lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8080/test-app/helloworld&lt;/code&gt; which uses a HTTP trigger.
+**NOTE: **You can have multiple triggers pointing to the same function, eg
+events, HTTP triggers, scheduled, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Functions&lt;/strong&gt;This is the piece of code you are writing and that gets executed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Images&lt;/strong&gt;&lt;br /&gt; Docker image that packages your function; the image used depends
+on the language of the function (e.g.&lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/go&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/ruby&lt;/code&gt;), for the
+best performance of functions we want our images to be as small as possible to
+make the function easier to scale.&lt;/p&gt;
+
+&lt;h4 id=&quot;lets-get-started&quot;&gt;Let’s get started&lt;/h4&gt;
+
+&lt;p&gt;Now that we have the terminology sorted let’s get started and make our sample
+app.&lt;/p&gt;
+
+&lt;p&gt;To do this we use the &lt;code class=&quot;highlighter-rouge&quot;&gt;init&lt;/code&gt; command to create a function with a Golang runtime
+&lt;code class=&quot;highlighter-rouge&quot;&gt;--runtime go&lt;/code&gt; then the provide it with the trigger type &lt;code class=&quot;highlighter-rouge&quot;&gt;--trigger http&lt;/code&gt; and
+then finally the subfolder for the function in this case &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn init --runtime go --trigger http hello
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When we go to the newly created function &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; subfolder, in this folder we
+can see the structure of the function, eg:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hello
+├── Gopkg.toml
+├── func.go
+├── func.yaml
+└── test.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The source code for your function is in the &lt;code class=&quot;highlighter-rouge&quot;&gt;func.go&lt;/code&gt; file and has a function
+handler that responds with a &lt;em&gt;“Hello World”&lt;/em&gt; message. The &lt;code class=&quot;highlighter-rouge&quot;&gt;func.yaml&lt;/code&gt; file
+contains information such as version runtime, name, entry point for your
+function and a list of triggers.&lt;/p&gt;
+
+&lt;p&gt;You may look at the &lt;code class=&quot;highlighter-rouge&quot;&gt;test.json&lt;/code&gt; file and wonder what it is, this file holds an
+array of tests (input values and expected output values) that can be used to
+test your function as a black-box service &lt;code class=&quot;highlighter-rouge&quot;&gt;fn test&lt;/code&gt;. This is really useful
+fortesting any services in the beta stage.&lt;/p&gt;
+
+&lt;p&gt;Now that we have created our function using the built-in &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; example we can
+run the function for testing using the &lt;code class=&quot;highlighter-rouge&quot;&gt;fn run&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;**Note: **Before you run the function make sure you set the &lt;code class=&quot;highlighter-rouge&quot;&gt;FN_REGISTRY&lt;/code&gt;
+environment variable to your Docker repository.&lt;/p&gt;
+
+&lt;p&gt;Now when you run the command, Fn will build the Docker image with the function
+and runs the function like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn run
+
+Building image hello:0.0.1 ...........
+{&quot;message&quot;:&quot;Hello World&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is all great, but we have the Fn server running locally, so let’s deploy
+our function to the server, instead of just running it.&lt;/p&gt;
+
+&lt;p&gt;To deploy the function, you can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;fn deploy&lt;/code&gt; command and specify the app
+name. Note that you need to run the command below from within the function
+folder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn deploy --app myapp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This command deploys the app (called &lt;code class=&quot;highlighter-rouge&quot;&gt;myapp&lt;/code&gt;) and a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;hello &lt;/code&gt;to
+the local Fn server and links a trigger called &lt;code class=&quot;highlighter-rouge&quot;&gt;hello-trigger&lt;/code&gt; to that function.&lt;/p&gt;
+
+&lt;p&gt;This means that on the Fn server, the function will be accessible under
+&lt;code class=&quot;highlighter-rouge&quot;&gt;/myapp/hello-trigger&lt;/code&gt; path (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;http://**ClsuterIP**/t/myapp/hello-trigger&lt;/code&gt;).
+The app name is used to logically group functions together. To see the full list
+of triggers defined on the Fn server, just run this command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# List all triggers for 'myapp'
+fn list triggers myapp
+
+FUNCTION        NAME            TYPE    SOURCE          ENDPOINT
+hello           hello-trigger   http    /hello-trigger  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, if you access the endpoint, you will get back the “&lt;em&gt;Hello World&lt;/em&gt;”
+message like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl 
+{&quot;message&quot;:&quot;Hello World&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;grouping-functions&quot;&gt;Grouping functions&lt;/h3&gt;
+
+&lt;p&gt;To group the functions together, we can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;app&lt;/code&gt; name construct — this
+allows you to group different functions together logically (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;test-app&lt;/code&gt;
+could have functions such as &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;goodbye&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;In this case, the &lt;code class=&quot;highlighter-rouge&quot;&gt;test-app&lt;/code&gt; could also be the folder where your functions live,
+with their subfolders eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;/hello&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/goodbye &lt;/code&gt;which contain the actual
+functions. You can also define the &lt;code class=&quot;highlighter-rouge&quot;&gt;app.yaml&lt;/code&gt; file in the app root folder, to be
+able to deploy all functions with one command.&lt;/p&gt;
+
+&lt;p&gt;Follow the steps below to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;test-app&lt;/code&gt; with hello and goodbye functions:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Create the test-app folder
+mkdir test-app
+cd test-app
+
+# Create app.yaml that defines the app name
+echo &quot;name: test-app&quot; &amp;gt; app.yaml
+
+# Create a hello function in /hello subfolder
+fn init --runtime go --trigger http hello
+
+# Create a goodbye function in /goodbye subfolder
+fn init --runtime go --trigger http goodbye
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, we can go into the &lt;code class=&quot;highlighter-rouge&quot;&gt;/hello&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;/goodbye&lt;/code&gt; folder, and deploy each app
+separately with &lt;code class=&quot;highlighter-rouge&quot;&gt;fn deploy --app test-app&lt;/code&gt;. Alternatively, since we have the app
+name defined in &lt;code class=&quot;highlighter-rouge&quot;&gt;app.yaml&lt;/code&gt; in the root folder, we can use this command to deploy
+all functions to the Fn server:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn deploy --all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The above command creates the following functions and triggers:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn list triggers test-app
+
+FUNCTION        NAME            TYPE    SOURCE                  ENDPOINT
+goodbye         goodbye-trigger http    /goodbye-trigger        
+hello           hello-trigger   http    /hello-trigger          
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also create a function that lives in the root of your app by running &lt;code class=&quot;highlighter-rouge&quot;&gt;fn
+init&lt;/code&gt; command from the apps root folder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn init --runtime node --trigger http
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then deploy it again:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn deploy --all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we have three &lt;em&gt;triggers&lt;/em&gt; defined under the &lt;em&gt;greeter-app&lt;/em&gt; logical group:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fn list triggers test-app
+
+FUNCTION        NAME                    TYPE    SOURCE                  ENDPOINT
+goodbye         goodbye-trigger         http    /goodbye-trigger        
+greeter-app     test-app-trigger     http    /greeter-app-trigger    
+hello           hello-trigger           http    /hello-trigger          
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;enabling-the-ui&quot;&gt;Enabling the UI&lt;/h3&gt;
+
+&lt;p&gt;If you prefer to interact with a UI, you can also do this with FN. Assuming you
+have the Fn server running locally, you can start the UI l:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run --rm -it --link fnserver:api -p 4000:4000 -e &quot;FN_API_URL=
+&quot; fnproject/ui
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When the image has been downloaded and the container has been executed, you’ll
+be able to access the UI on &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;try-it-yourself-for-free&quot;&gt;Try it yourself for free!&lt;/h4&gt;
+
+&lt;p&gt;Now that you’ve seen how FN works and how to get started and host it on the
+cloud, why not give it a go yourself with up to 3500 hours worth of free credits
+on Oracle Cloud &lt;a href=&quot;http://bit.ly/brianMediumBlog&quot;&gt;http://bit.ly/brianMediumBlog&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Brian Mathews &lt;a href=&quot;https://twitter.com/DevOps4Days&quot;&gt;@DevOps4Days&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Serverless Functions on Oracle Cloud using the open source FN project</summary></entry><entry><title type="html">package.json</title><link href="http://localhost:4001/packagejson/" rel="alternate" type="text/html" title="package.json" /><published>2019-01-25T00:00:00+00:00</published><updated>2019-01-25T00:00:00+00:00</updated><id>http://localhost:4001/packagejson</id><content type="html" xml:base="http://localhost:4001/packagejson/">&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;imagedims&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Function using ImageMagick that returns dimensions&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;func.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;fnproject.io&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Apache-2.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;@fnproject/fdk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;gt;=0.0.11&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tmp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.0.33&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;imagemagick&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.1.3&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">{ &quot;name&quot;: &quot;imagedims&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;Function using ImageMagick that returns dimensions&quot;, &quot;main&quot;: &quot;func.js&quot;, &quot;author&quot;: &quot;fnproject.io&quot;, &quot;license&quot;: &quot;Apache-2.0&quot;, &quot;dependencies&quot;: { &quot;@fnproject/fdk&quot;: &quot;&amp;gt;=0.0.11&quot;, &quot;tmp&quot;: &quot;^0.0.33&quot;, &quot;imagemagick&quot;: &quot;^0.1.3&quot; } }</summary></entry><entry><title type="html">Creating custom Dockerfiles for Node.js function’s</title><link href="http://localhost:4001/serverless/getting-started-with-customer-dockerfiles/" rel="alternate" type="text/html" title="Creating custom Dockerfiles for Node.js function’s" /><published>2019-01-25T00:00:00+00:00</published><updated>2019-01-25T00:00:00+00:00</updated><id>http://localhost:4001/serverless/getting-started-with-customer-dockerfiles</id><content type="html" xml:base="http://localhost:4001/serverless/getting-started-with-customer-dockerfiles/">&lt;h1 id=&quot;getting-started-with-custom-dockerfiles-for-nodejs-for-serverless-functions&quot;&gt;Getting started with Custom Dockerfiles for Node.js for Serverless Function’s&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*Njm6sMNgKzhyVhPzwf7g0g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;intro&quot;&gt;&lt;strong&gt;Intro:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;The aim of this tutorial is to walk through how you can use a custom Docker
+image to define an Node.js serverless function.&lt;/p&gt;
+
+&lt;p&gt;For the purpose of this tutorial I used the opensource Fn project for testing as
+you can run it on your local machine. For more information on Fn see tee the
+following page &lt;a href=&quot;http://fnproject.io/&quot;&gt;http://fnproject.io/&lt;/a&gt; or take a look at my
+last blog which walks you through configuring Fn to run on &lt;a href=&quot;https://medium.com/@brianbmathews/going-serverless-on-oracle-cloud-using-the-open-source-fn-project-3c71f843b6d&quot;&gt;Kubernetes on a free
+OCI Cloud
+trial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the demo function I thought I would try something and use
+&lt;a href=&quot;https://www.imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt; to do some nice simple image
+processing in our function and while there is a Node.js module for ImageMagick,
+it’s really just a wrapper on the underlying native library. So we’ll have to
+install the library in addition to adding the Node module to our &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;
+dependencies. Let’s start by creating the Node function&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prequisites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This tutorial requires you to have both Docker and Fn installed. If you need
+help with Fn installation you can find instructions in the &lt;a href=&quot;https://fnproject.io/tutorials/install/&quot;&gt;Install and Start Fn
+Tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If it isn’t already running, you’ll need to start the Fn server. We’ll run it in
+the foreground to let us see the server log messages so let’s open a new
+terminal for this.&lt;/p&gt;
+
+&lt;p&gt;Start the Fn server using the fn cli:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fn start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;function-definition&quot;&gt;Function Definition&lt;/h3&gt;
+
+&lt;p&gt;Firstly we shall create a folder for our deployment package:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir magick-function
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We shall now jump into that folder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd magick-function
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In an &lt;strong&gt;empty folder&lt;/strong&gt; create a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;func.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nano func.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In this function you can paste the following as its content:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fdk&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'@fnproject/fdk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tmp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;im&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'imagemagick'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;fdk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tmpName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writeFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'-format'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{&quot;width&quot;: %w, &quot;height&quot;: %h}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;inputMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'buffer'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This function is pretty straight forward, it takes a binary image as it’s
+argument, writes it to a tmp file, and then uses ImageMagick to obtain the width
+and height of the image. Since the function argument type is binary we need to
+set the “inputMode” property to “buffer” when we call the the FDK’s handle
+function.&lt;/p&gt;
+
+&lt;h3 id=&quot;declaring-nodejs-dependencies&quot;&gt;Declaring Node.js Dependencies&lt;/h3&gt;
+
+&lt;p&gt;There are some interesting elements to this function, but the key one for us is
+the use of the “imagemagick” Node module for image processing.&lt;/p&gt;
+
+&lt;p&gt;To use it we need to include it in our dependencies in the &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; along
+with the other dependencies.&lt;/p&gt;
+
+&lt;p&gt;In same folder as the &lt;code class=&quot;highlighter-rouge&quot;&gt;func.js&lt;/code&gt; file, create a &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file and paste the
+following as its content:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+
+&quot;name&quot;: &quot;imagedims&quot;,
+
+&quot;version&quot;: &quot;1.0.0&quot;,
+
+&quot;description&quot;: &quot;Function using ImageMagick that returns dimensions&quot;,
+
+&quot;main&quot;: &quot;func.js&quot;,
+
+&quot;author&quot;: &quot;fnproject.io&quot;,
+
+&quot;license&quot;: &quot;Apache-2.0&quot;,
+
+&quot;dependencies&quot;: {
+
+&quot;@fnproject/fdk&quot;: &quot;&amp;gt;=0.0.11&quot;,
+
+&quot;tmp&quot;: &quot;^0.0.33&quot;,
+
+&quot;imagemagick&quot;: &quot;^0.1.3&quot;
+
+}
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Like all Node.js functions using the Fn Node FDK we include it as a dependency
+along with the “tmp” module which as I mentioned we need for the temporary file
+utilities and “imagemagick” for image processing.&lt;/p&gt;
+
+&lt;h3 id=&quot;function-metadata&quot;&gt;Function Metadata&lt;/h3&gt;
+
+&lt;p&gt;Now that we have a Node.js function and it’s dependencies captured in the
+&lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; we need a &lt;code class=&quot;highlighter-rouge&quot;&gt;func.yaml&lt;/code&gt; to capture the function metadata.&lt;/p&gt;
+
+&lt;p&gt;In the folder containing the previously created files, create a &lt;code class=&quot;highlighter-rouge&quot;&gt;func.yaml&lt;/code&gt; file
+and paste the following as its content:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;schema_version:
+20180708
+
+name:
+imagedims
+
+version:
+0.0.1
+
+runtime:
+docker
+
+triggers:
+
+-
+name:
+imagedims-trigger
+
+type:
+http
+
+source:
+/imagedims
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: **This is a pretty typical &lt;code class=&quot;highlighter-rouge&quot;&gt;func.yaml&lt;/code&gt; for a Node.js function,
+**except&lt;/strong&gt; that instead of declaring the &lt;strong&gt;runtime&lt;/strong&gt; as “node” we’ve specified
+“&lt;strong&gt;docker&lt;/strong&gt;”. If you were to type &lt;code class=&quot;highlighter-rouge&quot;&gt;fn build&lt;/code&gt; right now you’d get the error:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ Fn: Dockerfile does not exist for ‘docker’ runtime
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is because when you set the runtime type to “docker” &lt;code class=&quot;highlighter-rouge&quot;&gt;fn build&lt;/code&gt; defers to
+your Dockerfile to build the function container image–and we haven’t defined
+this yet.&lt;/p&gt;
+
+&lt;h3 id=&quot;default-nodejs-function-dockerfile&quot;&gt;Default Node.js Function Dockerfile&lt;/h3&gt;
+
+&lt;p&gt;The Dockerfile that &lt;code class=&quot;highlighter-rouge&quot;&gt;fn build&lt;/code&gt; would normally generate to build a Node.js
+function container image looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM fnproject/node:dev as build-stage
+WORKDIR /function
+ADD package.json /function/
+RUN npm &lt;span class=&quot;nb&quot;&gt;install
+&lt;/span&gt;FROM fnproject/node
+WORKDIR /function
+ADD &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; /function/
+COPY &lt;span class=&quot;nt&quot;&gt;--from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;build-stage /function/node_modules/ /function/node_modules/
+ENTRYPOINT &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;func.js&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It’s a two stage build with the &lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/node:dev&lt;/code&gt; image containing &lt;code class=&quot;highlighter-rouge&quot;&gt;npm&lt;/code&gt; and
+other build tools, and the &lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/node&lt;/code&gt; image containing just the Node
+runtime. This approach is designed to ensure that deployable function container
+images are as small as possible–which is beneficial for a number of reasons.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-nodejs-function-dockerfile&quot;&gt;Custom Node.js Function Dockerfile&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/node&lt;/code&gt; container image is built on Alpine so we’ll need to install
+the ImageMagick Alpine package using the &lt;code class=&quot;highlighter-rouge&quot;&gt;apk&lt;/code&gt; package management utility. You
+can do this with a Dockerfile &lt;code class=&quot;highlighter-rouge&quot;&gt;RUN&lt;/code&gt; command:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RUN apk add &lt;span class=&quot;nt&quot;&gt;--no-cache&lt;/span&gt; imagemagick
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We want to install ImageMagick into the runtime image, not the build image, so
+we need to add the &lt;code class=&quot;highlighter-rouge&quot;&gt;RUN&lt;/code&gt; command after the &lt;code class=&quot;highlighter-rouge&quot;&gt;FROM fnproject/node&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;In the folder containing the previously created files, create a file named
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Dockerfile&lt;/code&gt; and paste the following as its content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash~~&quot;&gt;FROM fnproject/node:dev as build-stage
+WORKDIR /function
+ADD package.json /function/fn
+RUN npm install
+FROM fnproject/node
+RUN apk add --no-cache imagemagick
+WORKDIR /function
+ADD . /function/
+COPY --from=build-stage /function/node_modules/ /function/node_modules/
+ENTRYPOINT [&quot;node&quot;, &quot;func.js&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this Dockerfile, the Node.js function, it’s dependencies (including the
+“imagemagick” wrapper), and the “imagemagick” Alpine package will be included in
+an image derived from the base &lt;code class=&quot;highlighter-rouge&quot;&gt;fnproject/node&lt;/code&gt; image. We should be good to go!&lt;/p&gt;
+
+&lt;p&gt;Now we can build our file:&lt;/p&gt;
+
+&lt;h3 id=&quot;building-and-deploying&quot;&gt;Building and Deploying&lt;/h3&gt;
+
+&lt;p&gt;Once you have your custom Dockerfile you can simply use &lt;code class=&quot;highlighter-rouge&quot;&gt;fn build&lt;/code&gt; to build your
+function. Give it a try:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fn -v build&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see output similar to:&lt;/p&gt;
+
+&lt;p&gt;Just like with a default build, the output is a container image. From this point
+forward everything is just as it would be for any function. Since I previously
+started an Fn server, you can deploy it now and test. Let’s deploy to an
+application named ‘tutorial’:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fn deploy --app tutorial --local&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We can confirm the function is correctly defined by getting a list of the
+functions in the “tutorial” application:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fn list functions tutorial&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: The fn cli let’s you abbreviate most of the keywords so you can also
+say &lt;code class=&quot;highlighter-rouge&quot;&gt;fn ls f tutorial&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You should see output similar to:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NAME        IMAGE             ID
+imagedims   imagedims:0.0.1   01CWFAS9DBNG8G00RZJ0000002
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;invoking-the-function&quot;&gt;Invoking the Function&lt;/h3&gt;
+
+&lt;p&gt;With the function deployed let’s invoke it to make sure it’s working as
+expected. You’ll need a jpeg or png file so either find one on your machine or
+download one. I used a random photo on my laptop&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cat Test-image.jpg | fn invoke tutorial imagedims&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For this file you should see the following output:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;{&quot;width&quot;:720,&quot;height&quot;:540}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;calling-the-function-with-curl&quot;&gt;Calling the Function with curl&lt;/h3&gt;
+
+&lt;p&gt;You may have noticed when creating the &lt;code class=&quot;highlighter-rouge&quot;&gt;func.yaml&lt;/code&gt;we included a HTTP trigger
+declaration, this is so we can also call the function easily with curl.&lt;/p&gt;
+
+&lt;p&gt;It’s a little more complicated as you need to declare the content type because
+the request body is binary. You also need to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;--data-binary&lt;/code&gt; switch:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl --data-binary Test-image.jpg -H &quot;Content-Type: application/octet-stream&quot; -X POST http://localhost:8080/t/tutorial/imagedims&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You should get exactly the same output as when using &lt;code class=&quot;highlighter-rouge&quot;&gt;fn invoke&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;One of the most powerful features of Fn is the ability to use custom defined
+Docker container images as functions. This feature makes it possible to
+customize your function’s runtime environment including letting you install any
+Linux libraries or utilities that your function might need. And thanks to the Fn
+CLI’s support for Dockerfiles it’s the same user experience as when developing
+any function.&lt;/p&gt;
+
+&lt;p&gt;Having completed this tutorial you’ve successfully built a function using a
+custom Dockerfile. Well done, why not give it a go now with Fn hosted on the
+Kubernetes on OCI for free as outlined in &lt;a href=&quot;https://medium.com/@brianbmathews/going-serverless-on-oracle-cloud-using-the-open-source-fn-project-3c71f843b6d&quot;&gt;my previous
+blog&lt;/a&gt;!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Brian Mathews &lt;a href=&quot;https://twitter.com/DevOps4Days&quot;&gt;@DevOps4Days&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Getting started with Custom Dockerfiles for Node.js for Serverless Function’s</summary></entry><entry><title type="html">func.js</title><link href="http://localhost:4001/funcjs/" rel="alternate" type="text/html" title="func.js" /><published>2019-01-25T00:00:00+00:00</published><updated>2019-01-25T00:00:00+00:00</updated><id>http://localhost:4001/funcjs</id><content type="html" xml:base="http://localhost:4001/funcjs/">&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fdk&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'@fnproject/fdk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tmp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;im&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'imagemagick'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;fdk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tmpName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writeFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'-format'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{&quot;width&quot;: %w, &quot;height&quot;: %h}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmpFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;inputMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'buffer'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">~~~javascript const fdk = require(‘@fnproject/fdk’); const fs = require(‘fs’); const tmp = require(‘tmp’); const im = require(‘imagemagick’);</summary></entry></feed>
